@@ -27,6 +27,7 @@ const VirtualFilters = dynamic(() =>
   )
 )
 
+
 const indexName = process.env.NEXT_PUBLIC_ALGOLIA_INDEX_NAME
 const routing = getRouting(indexName)
 
