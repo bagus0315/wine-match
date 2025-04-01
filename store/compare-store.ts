@@ -21,6 +21,7 @@ interface CompareProps {
   removeItem: (wineId: number) => void
 }
 
+
 export const useStore = create(
   persist<CompareProps>(
     (set, get) => ({
